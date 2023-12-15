@@ -6,12 +6,11 @@
 3. [Gradient](#gradient)
 4. [Évaluation du modèle](#évaluation-du-modèle)
 5. [Analyse du dataset](#analyse-du-dataset)
-6. [Diviser notre dataset en x et y](#diviser-notre-dataset-en-x-et-y)
-7. [Split des données](#split-des-données)
-8. [La normalisation du dataset](#la-normalisation-du-dataset)
-9. [Pour le cas de la régression linéaire](#pour-le-cas-de-la-régression-linéaire)
-10. [Pour la régression polynomiale multivariée](#pour-la-régression-polynomiale-multivariée)
-11. [Conclusion](#conclusion)
+6. [Split des données](#split-des-données)
+7. [La normalisation du dataset](#la-normalisation-du-dataset)
+8. [Pour le cas de la régression linéaire](#pour-le-cas-de-la-régression-linéaire)
+9. [Pour la régression polynomiale multivariée](#pour-la-régression-polynomiale-multivariée)
+10. [Conclusion](#conclusion)
 
 ## Le modèle
 - **Création de la matrice X**
@@ -34,13 +33,3 @@
 ## Évaluation du modèle
 - Coefficient de détermination
   - [Performances](#)
-
-## Analyse du dataset
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from main import*
-%matplotlib inline
-dataset=pd.read_csv("advertising.csv")
-dataset.head()
